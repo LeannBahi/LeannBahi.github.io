@@ -1,0 +1,50 @@
+body {
+  font-family: "Avenir Next";
+  margin: 0;
+}
+
+/********** PORTFOLIO HOME **********/
+.row {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.column {
+  flex: 50%;
+  padding: 8px;
+}
+
+.img_container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.project_name {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vw;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.project_descr {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vw;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+/* Adapt to mobile */
+@media screen and (max-width: 700px) {
+  .row { flex-direction: column; }
+  .project_name { font-size: 3.5vw; }
+  .project_descr { font-size: 3.5vw; }
+}

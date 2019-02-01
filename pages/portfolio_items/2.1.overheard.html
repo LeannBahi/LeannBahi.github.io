@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Leann Bahi</title>
+  <link rel="stylesheet" type="text/css" href="../../css/portfolio.css">
+  <link rel="stylesheet" type="text/css" href="../../css/top_nav_footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/jpg" href="../../images/icon.jpg">
+</head>
+<body>
+
+<!-- <div class="nav_bar" w3-include-html="templates/nav_bar.html"></div> -->
+
+<!-- Navigation bar -->
+<div class="topnav" id="myTopnav">
+  <a href="../../index.html" class="left">LÉANNBAHI</a>
+  <a href="../resume.html">Resume</a>
+  <div class="dropdown">
+    <button class="dropbtn" style="color:black">Portfolio 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="../portfolio_uiux.html">UI/UX Design</a>
+      <a href="../portfolio_art.html">Graphic/Art</a>
+    </div>
+  </div> 
+  <a href="../../index.html">Home</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="topNavFun()">&#9776;</a>
+</div>
+
+<a class="back_link" href="javascript:history.back()" style="color:black"> < Back</a>
+
+<!-- Project Header -->
+
+<div class="project_section">
+  <div class="project_header">
+    <h1> OVERHEARD SERIES </h1>
+    <h2> Graphic Design </h2>
+  </div>
+
+  <div>
+    <svg width="700" height="16">
+      <rect class="top_rect" style="fill:rgb(255,0,0);"> </rect>
+    </svg>
+  </div>
+  <img class="header_img" src="../../images/graph_art/1.overheard/overheard_header.png" alt="Overheard">
+
+  <div class="project_details_row">
+    <div class="details_background" style="background-color:rgb(255,0,0,0.3);">
+      <h3> BACKGROUND </h3>
+      <small> For each of the cities below I picked a location and recorded parts of conversations I overheard. I then created graphic designs out of the overheard sentences or words. These are all hand bound together in a book. 
+      </small>
+    </div>
+    <div class="details_role" style="background-color:rgb(255,0,0,0.3);">
+    </div>
+  </div>
+</div>
+
+<!-- Tabs for each city -->
+<div class="portfolio_content">
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">LONDON</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">TOKYO</button>
+    <button class="tablinks" onclick="openCity(event, 'Incheon')">INCHEON</button>
+  </div>
+
+<!-- London Images -->
+  <div id="London" class="tabcontent">
+    <table>
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/london-title.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/london0.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/london1.png" style="width:100%;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/london2.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/london3.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/london4.png" style="width:100%;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/london5.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/london6.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/london7.png" style="width:100%;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/london8.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/london9.png" style="width:100%;">
+        </td>
+        <td> </td>
+      </tr>
+    </table>
+  </div>
+
+<!-- Paris Images -->
+  <div id="Tokyo" class="tabcontent">
+    <table style="width:700px">
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/tokyo-title.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/tokyo0.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/tokyo1.png" style="width:100%;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/tokyo2.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/tokyo3.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/tokyo4.png" style="width:100%;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/tokyo5.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/tokyo6.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/tokyo7.png" style="width:100%;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/tokyo8.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/tokyo9.png" style="width:100%;">
+        </td>
+        <td> </td>
+      </tr>
+    </table>
+  </div>
+
+<!-- Incheon Images -->
+  <div id="Incheon" class="tabcontent">
+    <table style="width:700px">
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/incheon-title.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/incheon0.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/incheon1.png" style="width:100%;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/incheon2.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/incheon3.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/incheon4.png" style="width:100%;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/incheon5.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/incheon6.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/incheon7.png" style="width:100%;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/incheon8.png" style="width:100%;">
+        </td>
+        <td>
+          <img border="1" src="../../images/graph_art/1.overheard/incheon9.png" style="width:100%;">
+        </td>
+        <td> </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+  <p>leannbahi@gmail.com</p>
+  <a href="https://www.linkedin.com/in/leann-bahi">
+    <i class="fa fa-linkedin-square" style="font-size:30px;"></i>
+  </a>
+  <a href="https://github.com/LeannBahi">
+    <i class="fa fa-github" style="font-size:30px;"></i>
+  </a>
+  <a href="https://www.facebook.com/leann.bahi">
+    <i class="fa fa-facebook-square" style="font-size:30px;"></i>
+  </a>
+  <a href="https://www.instagram.com/leannbubbles/?hl=en">
+    <i class="fa fa-instagram" style="font-size:30px;"></i>
+  </a>
+</div>
+
+<script src="../../js/top_nav.js"></script>
+<script src="../../js/2.1.overheard_tabs.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,312 @@
+body {
+  font-family: "Avenir Next";
+  margin: 0;
+}
+
+/********** PORTFOLIO PROJECT PAGES **********/
+.back_link {
+  padding-left: 50px;
+  text-decoration: none;
+}
+
+.project_section {
+  size: 50px;
+  text-align:center;
+}
+
+.project_header {
+  margin-top: 70px;
+  margin-bottom: 90px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.project_header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.project_header h2 {
+  font-size: 18px;
+  font-weight: lighter;
+  color: black;
+  line-height: 10%;
+}
+
+.header_img {
+  width: 700px;
+}
+
+rect.top_rect {
+  margin: auto 0;
+  width: 700px; 
+  height: 16px;
+}
+
+.project_details_row {
+  display:table;
+  width: 700px;
+  margin: auto;
+}
+
+.details_background {
+  display: table-cell;
+  width: 63%;
+  text-align: left;
+  padding: 12px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  line-height: 95%;
+}
+
+.details_background small {
+  line-height: 10%;
+}
+
+.details_role {
+  display: table-cell;
+  width: 37%;
+  text-align: left;
+  padding: 12px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  line-height: 95%;
+}
+
+.details_role small {
+  line-height: 10%;
+}
+
+.portfolio_content{
+  text-align: center;
+  margin:auto;
+  margin-top: 40px;
+}
+
+/****/
+.project_image_col { 
+  display: table-cell;
+  width: 63%;
+  text-align: left;
+  padding: 12px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  line-height: 95%;
+}
+
+.project_text {
+  vertical-align: middle;
+  display: table-cell;
+  width: 37%;
+  text-align: left;
+  padding: 12px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  line-height: 95%;
+}
+
+/** Enlarge images when clicked **/
+/* mouse to pointer when over image */
+img.proj {
+  width: 100%;
+  cursor: pointer;
+}
+
+img.proj_30 {
+  width: 30%;
+  cursor: pointer;
+}
+
+img.proj_50 {
+  width: 45%;
+  cursor: pointer;
+}
+iframe.vid {
+  width:390px;
+  height:220px;
+}
+
+/* Adapt to mobile */
+@media screen and (max-width: 700px) {
+  .back_link { padding-left: 30px; }
+  .header_img { width: 90vw; }
+  rect.top_rect { 
+    width: 90vw;
+  }
+  .project_details_row{ 
+    width: 90vw;
+  }
+  .details_background {
+    padding-bottom: 10px;  
+    padding-left: 5vw; 
+    padding-right: 5vw;
+    display: table;
+    width: 80vw;
+  }
+  .details_role { 
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: table;
+    width: 80vw;
+  }
+  .project_image_col {
+    padding-left: 0vw;
+    padding-bottom: 10px;
+    display: table;
+    width: 90vw;
+  }
+  .project_text { 
+    padding-left: 7vw;
+    padding-bottom: 20px; 
+    display: table;
+    width: 80vw;
+  }
+  img.proj { width:90vw; }
+  img.proj_30 { width:25vw; }
+  img.proj_50 { width:40vw; }
+  iframe.vid {
+    width: 90vw;
+    height: 50vw;
+  }
+  .project_details_row { width: 90vw; }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+}
+
+/* Modal Content (image) */
+.modal-content {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 80%;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/********** PORTFOLIO OVERHEARD PAGE **********/
+
+.tab {
+  overflow: hidden;
+  display: inline-block
+}
+
+.tab button {
+  color:#CBCBCB;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  color:black;
+}
+
+.tab button.active {
+  color: black;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+}
+
+/* table of images */
+table {
+  width:700px;
+  margin: auto;
+}
+
+th, td {
+  padding: 5px;
+}
+
+/********** PORTFOLIO TRUE SOUND PAGE **********/
+.sound{
+  width:700px;
+  margin: auto;
+}
+
+/********** PORTFOLIO SOUNDMAPPING PAGE **********/
+.mapping {
+  text-align: center;
+  width:100%; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 8px;
+  margin-bottom: 8px;
+}
+
+/********** PORTFOLIO EMOTIONS PAGE **********/
+.emotions {
+  text-align: center;
+  width: 600px; 
+}
+
+table.emotions {
+  width:600px;
+  margin: auto;
+}
+
+/********** PORTFOLIO MAGPIE PAGE **********/
+.magpie_container {
+  float: left;
+}
+
+/********** RESUME PAGE **********/
+.res {
+  width:700px; 
+  height:900px;
+  margin: auto 0;
+}
+
+@media only screen and (max-width: 700px){
+  .res {
+    width:100vw; 
+    height:80vh;
+  }
+}

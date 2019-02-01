@@ -1,0 +1,18 @@
+body {
+  font-family: "Avenir Next";
+  margin: 0;
+}
+
+/********** RESUME PAGE **********/
+.res {
+  width:700px; 
+  height:900px;
+  margin: auto 0;
+}
+
+@media only screen and (max-width: 700px){
+  .res {
+    width:100vw; 
+    height:80vh;
+  }
+}
