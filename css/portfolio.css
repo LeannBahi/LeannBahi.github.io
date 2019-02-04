@@ -39,8 +39,12 @@ body {
   width: 700px;
 }
 
+svg.top_rect_wrapper {
+  width: 700px;
+  text-align: center;
+}
+
 rect.top_rect {
-  margin: auto 0;
   width: 700px; 
   height: 16px;
 }
@@ -77,12 +81,6 @@ rect.top_rect {
 
 .details_role small {
   line-height: 10%;
-}
-
-.portfolio_content{
-  text-align: center;
-  margin:auto;
-  margin-top: 40px;
 }
 
 /****/
@@ -132,9 +130,10 @@ iframe.vid {
 @media screen and (max-width: 700px) {
   .back_link { padding-left: 30px; }
   .header_img { width: 90vw; }
-  rect.top_rect { 
+  svg.top_rect_wrapper {
     width: 90vw;
   }
+  rect.top_rect { width: 90vw; }
   .project_details_row{ 
     width: 90vw;
   }
@@ -196,9 +195,8 @@ iframe.vid {
   right: 0;
   bottom: 0;
   display: block;
-  width: 80%;
-  max-width: 90vw;
-  max-height: 90vh;
+  height: 90%;
+  max-height: 95vw;
 }
 @media only screen and (max-width: 700px){
   .modal-content {
@@ -272,6 +270,20 @@ th, td {
   margin: auto;
 }
 
+
+@media screen and (max-width: 700px) {
+  table {
+    width: 90vw;
+  }
+  th,td {
+    display: table;
+    width: 90vw;
+  }
+  .sound{
+    width: 100vw;
+  }
+}
+
 /********** PORTFOLIO SOUNDMAPPING PAGE **********/
 .mapping {
   text-align: center;
@@ -297,16 +309,3 @@ table.emotions {
   float: left;
 }
 
-/********** RESUME PAGE **********/
-.res {
-  width:700px; 
-  height:900px;
-  margin: auto 0;
-}
-
-@media only screen and (max-width: 700px){
-  .res {
-    width:100vw; 
-    height:80vh;
-  }
-}

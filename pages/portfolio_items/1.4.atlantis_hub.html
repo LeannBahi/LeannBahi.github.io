@@ -41,11 +41,9 @@
     <h2 style="line-height: 200%"> Data-Driven Display </h2>
   </div>
 
-  <div>
-    <svg width="700" height="16">
-      <rect class="top_rect" style="fill:rgb(81,144,197);"> </rect>
-    </svg>
-  </div>
+  <svg class="top_rect_wrapper" width="100%" height="16">
+    <rect class="top_rect" style="fill:rgb(81,144,197);"> </rect>
+  </svg>
   <img class="header_img" src="../../images/uiux_design/4.atlantis_hub/atlantis_hub_header.png" alt="Atlantis Hub">
 
   <!-- Project details -->
@@ -66,7 +64,12 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> STAKEHOLDER AND USER PERSONAS </h3>
-      <img class="proj" src="../../images/uiux_design/4.atlantis_hub/atlantis0.png">
+      <img id="img0" class="proj" data-modalid='modal0' src="../../images/uiux_design/4.atlantis_hub/atlantis0.png">
+      <!-- enlarge image when clicked -->
+      <div id="modal0" class="modal">
+        <span id="close0" data-modalid='modal0' class="close">&times;</span>
+        <img class="modal-content" id="img0_mod">
+      </div>
     </div>
     <div class="project_text">
       <p><small> We were provided with one stakeholder and two user personas accompanied with a spreadsheet of data for flight, train, and ferry transportation methods.
@@ -77,7 +80,12 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> EXPLORE DATA AND PERSONAS </h3>
-      <img class="proj" src="../../images/uiux_design/4.atlantis_hub/atlantis1.jpg">
+      <img id="img1" class="proj" data-modalid='modal1' src="../../images/uiux_design/4.atlantis_hub/atlantis1.jpg">
+      <!-- enlarge image when clicked -->
+      <div id="modal1" class="modal">
+        <span id="close1" data-modalid='modal1' class="close">&times;</span>
+        <img class="modal-content" id="img1_mod">
+      </div>
     </div>
     <div class="project_text">
       <p><small> REVIEW DATA</small></p>
@@ -93,7 +101,12 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> HAND SKETCHES </h3>
-      <img class="proj" src="../../images/uiux_design/4.atlantis_hub/atlantis2.png">
+      <img id="img2" class="proj" data-modalid='modal2' src="../../images/uiux_design/4.atlantis_hub/atlantis2.png">
+      <!-- enlarge image when clicked -->
+      <div id="modal2" class="modal">
+        <span id="close2" data-modalid='modal2' class="close">&times;</span>
+        <img class="modal-content" id="img2_mod">
+      </div>
     </div>
     <div class="project_text">
       <p><small> GOAL</small></p>
@@ -108,9 +121,24 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> DIGITAL SKETCHES AND EDITS </h3>
-      <img class="proj" src="../../images/uiux_design/4.atlantis_hub/atlantis3.a.png">
-      <img class="proj" src="../../images/uiux_design/4.atlantis_hub/atlantis3.b.png">
-      <img class="proj" src="../../images/uiux_design/4.atlantis_hub/atlantis3.c.png">
+      <img id="img3a" class="proj" data-modalid='modal3a' src="../../images/uiux_design/4.atlantis_hub/atlantis3.a.png">
+      <!-- enlarge image when clicked -->
+      <div id="modal3a" class="modal">
+        <span id="close3a" data-modalid='modal3a' class="close">&times;</span>
+        <img class="modal-content" id="img3a_mod">
+      </div>
+      <img id="img3b" class="proj" data-modalid='modal3b' src="../../images/uiux_design/4.atlantis_hub/atlantis3.b.png">
+      <!-- enlarge image when clicked -->
+      <div id="modal3b" class="modal">
+        <span id="close3b" data-modalid='modal3b' class="close">&times;</span>
+        <img class="modal-content" id="img3b_mod">
+      </div>
+      <img id="img3c" class="proj" data-modalid='modal3c' src="../../images/uiux_design/4.atlantis_hub/atlantis3.c.png">
+      <!-- enlarge image when clicked -->
+      <div id="modal3c" class="modal">
+        <span id="close3c" data-modalid='modal3c' class="close">&times;</span>
+        <img class="modal-content" id="img3c_mod">
+      </div>
     </div>
     <div class="project_text">
       <p><small> HIERARCHY</small></p>
@@ -157,6 +185,7 @@
 </div>
 
 <script src="../../js/top_nav.js"></script>
+<script src="../../js/zoom_images.js"></script>
 
 </body>
 </html>

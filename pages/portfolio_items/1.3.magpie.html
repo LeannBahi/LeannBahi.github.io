@@ -40,11 +40,9 @@
     <h2> Rapid Prototyping </h2>
   </div>
   
-  <div>
-    <svg width="700" height="16">
-      <rect class="top_rect" style="fill:rgb(124,208,250);"> </rect>
-    </svg>
-  </div>
+  <svg class="top_rect_wrapper" width="100%" height="16">
+    <rect class="top_rect" style="fill:rgb(124,208,250);"> </rect>
+  </svg>
   <img class="header_img" src="../../images/uiux_design/3.magpie/magpie_header.png" alt="Magpie">
 
   <!-- Project details -->
@@ -65,9 +63,9 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> RESEARCH - SCHOOL VISIT </h3>
-      <img id="img0" class="proj" src="../../images/uiux_design/3.magpie/magpie0.png">
+      <img id="img0" class="proj" data-modalid='modal0' src="../../images/uiux_design/3.magpie/magpie0.png">
       <div id="modal0" class="modal">
-        <span id="close0" class="close">&times;</span>
+        <span id="close0" data-modalid='modal0' class="close">&times;</span>
         <img class="modal-content" id="img0_mod">
       </div>
     </div>
@@ -88,9 +86,9 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> BRAINSTORMING </h3>
-      <img id="img1" class="proj" src="../../images/uiux_design/3.magpie/magpie1.jpg">
+      <img id="img1" class="proj" data-modalid='modal1' src="../../images/uiux_design/3.magpie/magpie1.jpg">
       <div id="modal1" class="modal">
-        <span id="close1" class="close">&times;</span>
+        <span id="close1" data-modalid='modal1' class="close">&times;</span>
         <img class="modal-content" id="img1_mod">
       </div>
     </div>
@@ -105,9 +103,9 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> IDEATION </h3>
-      <img id="img2" class="proj" src="../../images/uiux_design/3.magpie/magpie2.jpg">
+      <img id="img2" class="proj" data-modalid='modal2' src="../../images/uiux_design/3.magpie/magpie2.jpg">
       <div id="modal2" class="modal">
-        <span id="close2" class="close">&times;</span>
+        <span id="close2" data-modalid='modal2' class="close">&times;</span>
         <img class="modal-content" id="img2_mod">
       </div>
     </div>
@@ -125,9 +123,9 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> CONCEPTUAL DESIGN </h3>
-      <img id="img3" class="proj" src="../../images/uiux_design/3.magpie/magpie3.png">
+      <img id="img3" class="proj" data-modalid='modal3' src="../../images/uiux_design/3.magpie/magpie3.png">
       <div id="modal3" class="modal">
-        <span id="close3" class="close">&times;</span>
+        <span id="close3" data-modalid='modal3' class="close">&times;</span>
         <img class="modal-content" id="img3_mod">
       </div>
     </div>
@@ -150,9 +148,9 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> ARCHITECTURE DIAGRAM </h3>
-      <img id="img4" class="proj" src="../../images/uiux_design/3.magpie/magpie4.png">
+      <img id="img4" class="proj" data-modalid='modal4' src="../../images/uiux_design/3.magpie/magpie4.png">
       <div id="modal4" class="modal">
-        <span id="close4" class="close">&times;</span>
+        <span id="close4" data-modalid='modal4' class="close">&times;</span>
         <img class="modal-content" id="img4_mod">
       </div>
     </div>
@@ -262,7 +260,7 @@
 </div>
 
 <script src="../../js/top_nav.js"></script>
-<script src="../../js/1.3.magpie_images.js"></script>
+<script src="../../js/zoom_images.js"></script>
 
 </body>
 </html>

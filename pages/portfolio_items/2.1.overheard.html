@@ -40,11 +40,9 @@
     <h2> Graphic Design </h2>
   </div>
 
-  <div>
-    <svg width="700" height="16">
-      <rect class="top_rect" style="fill:rgb(255,0,0);"> </rect>
-    </svg>
-  </div>
+  <svg class="top_rect_wrapper" width="100%" height="16">
+    <rect class="top_rect" style="fill:rgb(255,0,0);"> </rect>
+  </svg>
   <img class="header_img" src="../../images/graph_art/1.overheard/overheard_header.png" alt="Overheard">
 
   <div class="project_details_row">
@@ -71,43 +69,98 @@
     <table>
       <tr>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/london-title.png" style="width:100%;">
+          <img border="1" id="imgL" class="proj" data-modalid='modalL' src="../../images/graph_art/1.overheard/london-title.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalL" class="modal">
+            <span id="closeL" data-modalid='modalL' class="close">&times;</span>
+            <img class="modal-content" id="imgL_mod">
+          </div>
         </td>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/london0.png" style="width:100%;">
+          <img border="1" id="imgL0" class="proj" data-modalid='modalL0' src="../../images/graph_art/1.overheard/london0.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalL0" class="modal">
+            <span id="closeL0" data-modalid='modalL0' class="close">&times;</span>
+            <img class="modal-content" id="imgL0_mod">
+          </div>
         </td>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/london1.png" style="width:100%;">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/london2.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/london3.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/london4.png" style="width:100%;">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/london5.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/london6.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/london7.png" style="width:100%;">
+          <img border="1" id="imgL1" class="proj" data-modalid='modalL1' src="../../images/graph_art/1.overheard/london1.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalL1" class="modal">
+            <span id="closeL1" data-modalid='modalL1' class="close">&times;</span>
+            <img class="modal-content" id="imgL1_mod">
+          </div>
         </td>
       </tr>
       <tr>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/london8.png" style="width:100%;">
+          <img border="1" id="imgL2" class="proj" data-modalid='modalL2' src="../../images/graph_art/1.overheard/london2.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalL2" class="modal">
+            <span id="closeL2" data-modalid='modalL2' class="close">&times;</span>
+            <img class="modal-content" id="imgL2_mod">
+          </div>
         </td>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/london9.png" style="width:100%;">
+          <img border="1" id="imgL3" class="proj" data-modalid='modalL3' src="../../images/graph_art/1.overheard/london3.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalL3" class="modal">
+            <span id="closeL3" data-modalid='modalL3' class="close">&times;</span>
+            <img class="modal-content" id="imgL3_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgL4" class="proj" data-modalid='modalL4' src="../../images/graph_art/1.overheard/london4.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalL4" class="modal">
+            <span id="closeL4" data-modalid='modalL4' class="close">&times;</span>
+            <img class="modal-content" id="imgL4_mod">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" id="imgL5" class="proj" data-modalid='modalL5' src="../../images/graph_art/1.overheard/london5.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalL5" class="modal">
+            <span id="closeL5" data-modalid='modalL5' class="close">&times;</span>
+            <img class="modal-content" id="imgL5_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgL6" class="proj" data-modalid='modalL6' src="../../images/graph_art/1.overheard/london6.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalL6" class="modal">
+            <span id="closeL6" data-modalid='modalL6' class="close">&times;</span>
+            <img class="modal-content" id="imgL6_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgL7" class="proj" data-modalid='modalL7' src="../../images/graph_art/1.overheard/london0.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalL7" class="modal">
+            <span id="closeL7" data-modalid='modalL7' class="close">&times;</span>
+            <img class="modal-content" id="imgL7_mod">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" id="imgL8" class="proj" data-modalid='modalL8' src="../../images/graph_art/1.overheard/london8.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalL8" class="modal">
+            <span id="closeL8" data-modalid='modalL8' class="close">&times;</span>
+            <img class="modal-content" id="imgL8_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgL9" class="proj" data-modalid='modalL9' src="../../images/graph_art/1.overheard/london9.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalL9" class="modal">
+            <span id="closeL9" data-modalid='modalL9' class="close">&times;</span>
+            <img class="modal-content" id="imgL9_mod">
+          </div>
         </td>
         <td> </td>
       </tr>
@@ -119,43 +172,98 @@
     <table style="width:700px">
       <tr>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/tokyo-title.png" style="width:100%;">
+          <img border="1" id="imgT" class="proj" data-modalid='modalT' src="../../images/graph_art/1.overheard/tokyo-title.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalT" class="modal">
+            <span id="closeT" data-modalid='modalT' class="close">&times;</span>
+            <img class="modal-content" id="imgT_mod">
+          </div>
         </td>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/tokyo0.png" style="width:100%;">
+          <img border="1" id="imgT0" class="proj" data-modalid='modalT0' src="../../images/graph_art/1.overheard/tokyo0.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalT0" class="modal">
+            <span id="closeT0" data-modalid='modalT0' class="close">&times;</span>
+            <img class="modal-content" id="imgT0_mod">
+          </div>
         </td>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/tokyo1.png" style="width:100%;">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/tokyo2.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/tokyo3.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/tokyo4.png" style="width:100%;">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/tokyo5.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/tokyo6.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/tokyo7.png" style="width:100%;">
+          <img border="1" id="imgT1" class="proj" data-modalid='modalT1' src="../../images/graph_art/1.overheard/tokyo1.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalT1" class="modal">
+            <span id="closeT1" data-modalid='modalT1' class="close">&times;</span>
+            <img class="modal-content" id="imgT1_mod">
+          </div>
         </td>
       </tr>
       <tr>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/tokyo8.png" style="width:100%;">
+          <img border="1" id="imgT2" class="proj" data-modalid='modalT2' src="../../images/graph_art/1.overheard/tokyo2.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalT2" class="modal">
+            <span id="closeT2" data-modalid='modalT2' class="close">&times;</span>
+            <img class="modal-content" id="imgT2_mod">
+          </div>
         </td>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/tokyo9.png" style="width:100%;">
+          <img border="1" id="imgT3" class="proj" data-modalid='modalT3' src="../../images/graph_art/1.overheard/tokyo3.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalT3" class="modal">
+            <span id="closeT3" data-modalid='modalT3' class="close">&times;</span>
+            <img class="modal-content" id="imgT3_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgT4" class="proj" data-modalid='modalT4' src="../../images/graph_art/1.overheard/tokyo4.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalT4" class="modal">
+            <span id="closeT4" data-modalid='modalT4' class="close">&times;</span>
+            <img class="modal-content" id="imgT4_mod">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" id="imgT5" class="proj" data-modalid='modalT5' src="../../images/graph_art/1.overheard/tokyo5.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalT5" class="modal">
+            <span id="closeT5" data-modalid='modalT5' class="close">&times;</span>
+            <img class="modal-content" id="imgT5_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgT6" class="proj" data-modalid='modalT6' src="../../images/graph_art/1.overheard/tokyo6.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalT6" class="modal">
+            <span id="closeT6" data-modalid='modalT6' class="close">&times;</span>
+            <img class="modal-content" id="imgT6_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgT7" class="proj" data-modalid='modalT7' src="../../images/graph_art/1.overheard/tokyo7.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalT7" class="modal">
+            <span id="closeT7" data-modalid='modalT7' class="close">&times;</span>
+            <img class="modal-content" id="imgT7_mod">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" id="imgT8" class="proj" data-modalid='modalT8' src="../../images/graph_art/1.overheard/tokyo8.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalT8" class="modal">
+            <span id="closeT8" data-modalid='modalT8' class="close">&times;</span>
+            <img class="modal-content" id="imgT8_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgT9" class="proj" data-modalid='modalT9' src="../../images/graph_art/1.overheard/tokyo9.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalT9" class="modal">
+            <span id="closeT9" data-modalid='modalT9' class="close">&times;</span>
+            <img class="modal-content" id="imgT9_mod">
+          </div>
         </td>
         <td> </td>
       </tr>
@@ -167,43 +275,98 @@
     <table style="width:700px">
       <tr>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/incheon-title.png" style="width:100%;">
+          <img border="1" id="imgI" class="proj" data-modalid='modalI' src="../../images/graph_art/1.overheard/incheon-title.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalI" class="modal">
+            <span id="closeI" data-modalid='modalI' class="close">&times;</span>
+            <img class="modal-content" id="imgI_mod">
+          </div>
         </td>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/incheon0.png" style="width:100%;">
+          <img border="1" id="imgI0" class="proj" data-modalid='modalI0' src="../../images/graph_art/1.overheard/incheon0.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalI0" class="modal">
+            <span id="closeI0" data-modalid='modalI0' class="close">&times;</span>
+            <img class="modal-content" id="imgI0_mod">
+          </div>
         </td>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/incheon1.png" style="width:100%;">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/incheon2.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/incheon3.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/incheon4.png" style="width:100%;">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/incheon5.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/incheon6.png" style="width:100%;">
-        </td>
-        <td>
-          <img border="1" src="../../images/graph_art/1.overheard/incheon7.png" style="width:100%;">
+          <img border="1" id="imgI1" class="proj" data-modalid='modalI1' src="../../images/graph_art/1.overheard/incheon1.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalI1" class="modal">
+            <span id="closeI1" data-modalid='modalI1' class="close">&times;</span>
+            <img class="modal-content" id="imgI1_mod">
+          </div>
         </td>
       </tr>
       <tr>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/incheon8.png" style="width:100%;">
+          <img border="1" id="imgI2" class="proj" data-modalid='modalI2' src="../../images/graph_art/1.overheard/incheon2.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalI2" class="modal">
+            <span id="closeI2" data-modalid='modalI2' class="close">&times;</span>
+            <img class="modal-content" id="imgI2_mod">
+          </div>
         </td>
         <td>
-          <img border="1" src="../../images/graph_art/1.overheard/incheon9.png" style="width:100%;">
+          <img border="1" id="imgI3" class="proj" data-modalid='modalI3' src="../../images/graph_art/1.overheard/incheon3.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalI3" class="modal">
+            <span id="closeI3" data-modalid='modalI3' class="close">&times;</span>
+            <img class="modal-content" id="imgI3_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgI4" class="proj" data-modalid='modalI4' src="../../images/graph_art/1.overheard/incheon4.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalI4" class="modal">
+            <span id="closeI4" data-modalid='modalI4' class="close">&times;</span>
+            <img class="modal-content" id="imgI4_mod">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" id="imgI5" class="proj" data-modalid='modalI5' src="../../images/graph_art/1.overheard/incheon5.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalI5" class="modal">
+            <span id="closeI5" data-modalid='modalI5' class="close">&times;</span>
+            <img class="modal-content" id="imgI5_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgI6" class="proj" data-modalid='modalI6' src="../../images/graph_art/1.overheard/incheon6.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalI6" class="modal">
+            <span id="closeI6" data-modalid='modalI6' class="close">&times;</span>
+            <img class="modal-content" id="imgI6_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgI7" class="proj" data-modalid='modalI7' src="../../images/graph_art/1.overheard/incheon7.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalI7" class="modal">
+            <span id="closeI7" data-modalid='modalI7' class="close">&times;</span>
+            <img class="modal-content" id="imgI7_mod">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img border="1" id="imgI8" class="proj" data-modalid='modalI8' src="../../images/graph_art/1.overheard/incheon8.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalI8" class="modal">
+            <span id="closeI8" data-modalid='modalI8' class="close">&times;</span>
+            <img class="modal-content" id="imgI8_mod">
+          </div>
+        </td>
+        <td>
+          <img border="1" id="imgI9" class="proj" data-modalid='modalI9' src="../../images/graph_art/1.overheard/incheon9.png">
+          <!-- enlarge image when clicked -->
+          <div id="modalI9" class="modal">
+            <span id="closeI9" data-modalid='modalI9' class="close">&times;</span>
+            <img class="modal-content" id="imgI9_mod">
+          </div>
         </td>
         <td> </td>
       </tr>
@@ -231,6 +394,7 @@
 
 <script src="../../js/top_nav.js"></script>
 <script src="../../js/2.1.overheard_tabs.js"></script>
+<script src="../../js/zoom_images.js"></script>
 
 </body>
 </html>

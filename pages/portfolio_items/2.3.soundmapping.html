@@ -40,7 +40,7 @@
     <h2> Graphic Design </h2>
   </div>
 
-  <svg width="700" height="16">
+  <svg class="top_rect_wrapper" width="100%" height="16">
     <rect class="top_rect" style="fill:rgb(255,0,0);"> </rect>
   </svg>
 
@@ -60,24 +60,47 @@
     <tr>
       <td>
         <div class="mapping">
-          <img src="../../images/graph_art/3.soundmapping/soundmapping3.png" style="width:100%">
+          <img id="img3" class="proj" data-modalid='modal3' src="../../images/graph_art/3.soundmapping/soundmapping3.png">
+          <!-- enlarge image when clicked -->
+          <div id="modal3" class="modal">
+            <span id="close3" data-modalid='modal3' class="close">&times;</span>
+            <img class="modal-content" id="img3_mod">
+          </div>
         </div>
       </td>
       <td>
         <div class="mapping">
-          <img src="../../images/graph_art/3.soundmapping/soundmapping2.png" style="width:100%">
+          <img id="img2" class="proj" data-modalid='modal2' src="../../images/graph_art/3.soundmapping/soundmapping2.png">
+          <!-- enlarge image when clicked -->
+          <div id="modal2" class="modal">
+            <span id="close2" data-modalid='modal2' class="close">&times;</span>
+            <img class="modal-content" id="img2_mod">
+          </div>
+        </div>
         </div>
       </td>
     </tr>
     <tr>
       <td>
         <div class="mapping">
-          <img src="../../images/graph_art/3.soundmapping/soundmapping1.png" style="width:100%">
+          <img id="img1" class="proj" data-modalid='modal1' src="../../images/graph_art/3.soundmapping/soundmapping1.png">
+          <!-- enlarge image when clicked -->
+          <div id="modal1" class="modal">
+            <span id="close1" data-modalid='modal1' class="close">&times;</span>
+            <img class="modal-content" id="img1_mod">
+          </div>
+        </div>
         </div>
       </td>
       <td>
         <div class="mapping">
-          <img src="../../images/graph_art/3.soundmapping/soundmapping0.png" style="width:100%">
+          <img id="img0" class="proj" data-modalid='modal0' src="../../images/graph_art/3.soundmapping/soundmapping0.png">
+          <!-- enlarge image when clicked -->
+          <div id="modal0" class="modal">
+            <span id="close0" data-modalid='modal0' class="close">&times;</span>
+            <img class="modal-content" id="img0_mod">
+          </div>
+        </div>
         </div>
       </td>
     </tr>
@@ -103,6 +126,7 @@
 </div>
 
 <script src="../../js/top_nav.js"></script>
+<script src="../../js/zoom_images.js"></script>
 
 </body>
 </html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Leann Bahi</title>
@@ -40,11 +40,9 @@
     <h2> User Experience Design </h2>
   </div>
 
-  <div> 
-    <svg width="700" height="16">
-      <rect class="top_rect" style="fill:rgb(240,162,133);"> </rect>
-    </svg>
-  </div>
+  <svg class="top_rect_wrapper" width="100%" height="16">
+    <rect class="top_rect" style="fill:rgb(240,162,133);"> </rect>
+  </svg>
   <img class="header_img" src="../../images/uiux_design/1.espace/espace_header.png" alt="Espace">
 
   <!-- Project details -->
@@ -65,10 +63,10 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> DETERMINING A FOCUS AREA </h3>
-      <img id="img0" class="proj" src="../../images/uiux_design/1.espace/espace0.png">
+      <img id="img0" class="proj" data-modalid='modal0' src="../../images/uiux_design/1.espace/espace0.png">
       <!-- enlarge image when clicked -->
       <div id="modal0" class="modal">
-        <span id="close0" class="close">&times;</span>
+        <span id="close0" data-modalid='modal0' class="close">&times;</span>
         <img class="modal-content" id="img0_mod">
       </div>
     </div>
@@ -87,9 +85,10 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> SYNTHESIZING OUR FINDINGS </h3>
-      <img id="img1" class="proj" src="../../images/uiux_design/1.espace/espace1.JPG">
+      <img id="img1" class="proj" data-modalid='modal1' src="../../images/uiux_design/1.espace/espace1.JPG">
+      <!-- enlarge image when clicked -->
       <div id="modal1" class="modal">
-        <span id="close1" class="close">&times;</span>
+        <span id="close1" data-modalid='modal1' class="close">&times;</span>
         <img class="modal-content" id="img1_mod">
       </div>
     </div>
@@ -105,9 +104,9 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> CLIENT PRESENTATION 1 </h3>
-      <img id="img2" class="proj" border="1" src="../../images/uiux_design/1.espace/espace2.a.png">
+      <img id="img2" class="proj" data-modalid='modal2' border="1" src="../../images/uiux_design/1.espace/espace2.a.png">
       <div id="modal2" class="modal">
-        <span id="close2" class="close">&times;</span>
+        <span id="close2" data-modalid='modal2' class="close">&times;</span>
         <img class="modal-content" id="img2_mod">
       </div>
     </div>
@@ -125,9 +124,9 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> GENERATIVE RESEARCH </h3>
-      <img id="img3" class="proj" src="../../images/uiux_design/1.espace/espace3.png">
+      <img id="img3" class="proj" data-modalid='modal3' src="../../images/uiux_design/1.espace/espace3.png">
       <div id="modal3" class="modal">
-        <span id="close3" class="close">&times;</span>
+        <span id="close3" data-modalid='modal3' class="close">&times;</span>
         <img class="modal-content" id="img3_mod">
       </div>
     </div>
@@ -143,14 +142,14 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> THE PIVOT </h3>
-      <img id="img4" class="proj" src="../../images/uiux_design/1.espace/espace4.png">
+      <img id="img4" class="proj" data-modalid='modal4' src="../../images/uiux_design/1.espace/espace4.png">
       <div id="modal4" class="modal">
-        <span id="close4" class="close">&times;</span>
+        <span id="close4" data-modalid='modal4' class="close">&times;</span>
         <img class="modal-content" id="img4_mod">
       </div>
-      <img id="img4a" class="proj" src="../../images/uiux_design/1.espace/espace4.a.png">
+      <img id="img4a" class="proj" data-modalid='modal4a' src="../../images/uiux_design/1.espace/espace4.a.png">
       <div id="modal4a" class="modal">
-        <span id="close4a" class="close">&times;</span>
+        <span id="close4a" data-modalid='modal4a' class="close">&times;</span>
         <img class="modal-content" id="img4a_mod">
       </div>
     </div>
@@ -168,9 +167,9 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> CLIENT PRESENTATION 2 </h3>
-      <img id="img5" class="proj" src="../../images/uiux_design/1.espace/espace5.png">
+      <img id="img5" class="proj" data-modalid='modal5' src="../../images/uiux_design/1.espace/espace5.png">
       <div id="modal5" class="modal">
-        <span id="close5" class="close">&times;</span>
+        <span id="close5" data-modalid='modal5' class="close">&times;</span>
         <img class="modal-content" id="img5_mod">
       </div>
     </div>
@@ -190,9 +189,9 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> FURTHER RESEARCH </h3>
-      <img id="img6" class="proj" src="../../images/uiux_design/1.espace/espace6.png">
+      <img id="img6" class="proj" data-modalid='modal6' src="../../images/uiux_design/1.espace/espace6.png">
       <div id="modal6" class="modal">
-        <span id="close6" class="close">&times;</span>
+        <span id="close6" data-modalid='modal6' class="close">&times;</span>
         <img class="modal-content" id="img6_mod">
       </div>
     </div>
@@ -210,14 +209,14 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> STORYBOARDS </h3>
-      <img id="img7a" class="proj" src="../../images/uiux_design/1.espace/espace7.a.png">
+      <img id="img7a" class="proj" data-modalid='modal7a' src="../../images/uiux_design/1.espace/espace7.a.png">
       <div id="modal7a" class="modal">
-        <span id="close7a" class="close">&times;</span>
+        <span id="close7a" data-modalid='modal7a' class="close">&times;</span>
         <img class="modal-content" id="img7a_mod">
       </div>
-      <img id="img7b" class="proj" src="../../images/uiux_design/1.espace/espace7.b.png">
+      <img id="img7b" class="proj" data-modalid='modal7b' src="../../images/uiux_design/1.espace/espace7.b.png">
       <div id="modal7b" class="modal">
-        <span id="close7b" class="close">&times;</span>
+        <span id="close7b" data-modalid='modal7b' class="close">&times;</span>
         <img class="modal-content" id="img7b_mod">
       </div>
     </div>
@@ -233,24 +232,24 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> PROTOTYPING </h3>
-      <img id="img8a" class="proj"  src="../../images/uiux_design/1.espace/espace8.a.png">
+      <img id="img8a" class="proj"  data-modalid='modal8a' src="../../images/uiux_design/1.espace/espace8.a.png">
       <div id="modal8a" class="modal">
-        <span id="close8a" class="close">&times;</span>
+        <span id="close8a" data-modalid='modal8a' class="close">&times;</span>
         <img class="modal-content" id="img8a_mod">
       </div>
-      <img id="img8b" class="proj_30" src="../../images/uiux_design/1.espace/espace8.b.png">
+      <img id="img8b" class="proj_30" data-modalid='modal8b' src="../../images/uiux_design/1.espace/espace8.b.png">
       <div id="modal8b" class="modal">
-        <span id="close8b" class="close">&times;</span>
+        <span id="close8b" data-modalid='modal8b' class="close">&times;</span>
         <img class="modal-content" id="img8b_mod">
       </div>
-      <img id="img8c" class="proj_30" src="../../images/uiux_design/1.espace/espace8.c.png">
+      <img id="img8c" class="proj_30" data-modalid='modal8c' src="../../images/uiux_design/1.espace/espace8.c.png">
       <div id="modal8c" class="modal">
-        <span id="close8c" class="close">&times;</span>
+        <span id="close8c" data-modalid='modal8c' class="close">&times;</span>
         <img class="modal-content" id="img8c_mod">
       </div>
-      <img id="img8d" class="proj_30" src="../../images/uiux_design/1.espace/espace8.d.png">
+      <img id="img8d" class="proj_30" data-modalid='modal8d' src="../../images/uiux_design/1.espace/espace8.d.png">
       <div id="modal8d" class="modal">
-        <span id="close8d" class="close">&times;</span>
+        <span id="close8d" data-modalid='modal8d' class="close">&times;</span>
         <img class="modal-content" id="img8d_mod">
       </div>
     </div>
@@ -265,14 +264,14 @@
   <div class="project_details_row">
     <div class="project_image_col">
       <h3> 3D EXPLORATION </h3>
-      <img id="img8e" class="proj_50" src="../../images/uiux_design/1.espace/espace8.e.png">
+      <img id="img8e" class="proj_50" data-modalid='modal8e' src="../../images/uiux_design/1.espace/espace8.e.png">
       <div id="modal8e" class="modal">
-        <span id="close8e" class="close">&times;</span>
+        <span id="close8e" data-modalid='modal8e' class="close">&times;</span>
         <img class="modal-content" id="img8e_mod">
       </div>
-      <img id="img8f" class="proj_50" src="../../images/uiux_design/1.espace/espace8.f.png">
+      <img id="img8f" class="proj_50" data-modalid='modal8f' src="../../images/uiux_design/1.espace/espace8.f.png">
       <div id="modal8f" class="modal">
-        <span id="close8f" class="close">&times;</span>
+        <span id="close8f" data-modalid='modal8f' class="close">&times;</span>
         <img class="modal-content" id="img8f_mod">
       </div>
     </div>
@@ -312,7 +311,7 @@
 </div>
 
 <script src="../../js/top_nav.js"></script>
-<script src="../../js/1.1.espace_images.js"></script>
+<script src="../../js/zoom_images.js"></script>
 
 </body>
 </html>
