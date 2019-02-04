@@ -41,7 +41,7 @@
     <h2 style="line-height: 150%"> Installation </h2>
   </div>
 
-  <svg width="700" height="16">
+  <svg class="top_rect_wrapper" width="100%" height="16">
     <rect class="top_rect" style="fill:rgb(194,99,77);"> </rect>
   </svg>
 
@@ -57,38 +57,83 @@
 </div>
 
 <div class="portfolio_content emotions">
-  <img src="../../images/graph_art/4.emotion/full.jpg" style="width:600px">
+  <img id="img0" class="proj" data-modalid='modal0' src="../../images/graph_art/4.emotion/full.jpg" style="width:600px">
+  <!-- enlarge image when clicked -->
+  <div id="modal0" class="modal">
+    <span id="close0" data-modalid='modal0' class="close">&times;</span>
+    <img class="modal-content" id="img0_mod">
+  </div>
   <table class="emotions">
     <tr>
       <td>
-        <img src="../../images/graph_art/4.emotion/1.a.jpg" style="width:100%">
+        <img id="img1a" class="proj" data-modalid='modal1a' src="../../images/graph_art/4.emotion/1.a.jpg" style="width:100%">
+        <!-- enlarge image when clicked -->
+        <div id="modal1a" class="modal">
+          <span id="close1a" data-modalid='modal1a' class="close">&times;</span>
+          <img class="modal-content" id="img1a_mod">
+        </div>
       </td>
       <td>
-        <img src="../../images/graph_art/4.emotion/1.b.jpg" style="width:100%">
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="../../images/graph_art/4.emotion/2.a.jpg" style="width:100%">
-      </td>
-      <td>
-        <img src="../../images/graph_art/4.emotion/2.b.jpg" style="width:100%">
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="../../images/graph_art/4.emotion/3.a.jpg" style="width:100%">
-      </td>
-      <td>
-        <img src="../../images/graph_art/4.emotion/3.b.jpg" style="width:100%">
+        <img id="img1b" class="proj" data-modalid='modal1b' src="../../images/graph_art/4.emotion/1.b.jpg" style="width:100%">
+        <!-- enlarge image when clicked -->
+        <div id="modal1b" class="modal">
+          <span id="close1b" data-modalid='modal1b' class="close">&times;</span>
+          <img class="modal-content" id="img1b_mod">
+        </div>
       </td>
     </tr>
     <tr>
       <td>
-        <img src="../../images/graph_art/4.emotion/4.a.jpg" style="width:100%">
+        <img id="img2a" class="proj" data-modalid='modal2a' src="../../images/graph_art/4.emotion/2.a.jpg" style="width:100%">
+        <!-- enlarge image when clicked -->
+        <div id="modal2a" class="modal">
+          <span id="close2a" data-modalid='modal2a' class="close">&times;</span>
+          <img class="modal-content" id="img2a_mod">
+        </div>
       </td>
       <td>
-        <img src="../../images/graph_art/4.emotion/4.b.jpg" style="width:100%">
+        <img id="img2b" class="proj" data-modalid='modal2b' src="../../images/graph_art/4.emotion/2.b.jpg" style="width:100%">
+        <!-- enlarge image when clicked -->
+        <div id="modal2b" class="modal">
+          <span id="close2b" data-modalid='modal2b' class="close">&times;</span>
+          <img class="modal-content" id="img2b_mod">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img id="img3a" class="proj" data-modalid='modal3a' src="../../images/graph_art/4.emotion/3.a.jpg" style="width:100%">
+        <!-- enlarge image when clicked -->
+        <div id="modal3a" class="modal">
+          <span id="close3a" data-modalid='modal3a' class="close">&times;</span>
+          <img class="modal-content" id="img3a_mod">
+        </div>
+      </td>
+      <td>
+        <img id="img3b" class="proj" data-modalid='modal3b' src="../../images/graph_art/4.emotion/3.b.jpg" style="width:100%">
+        <!-- enlarge image when clicked -->
+        <div id="modal3b" class="modal">
+          <span id="close3b" data-modalid='modal3b' class="close">&times;</span>
+          <img class="modal-content" id="img3b_mod">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img id="img4a" class="proj" data-modalid='modal4a' src="../../images/graph_art/4.emotion/4.a.jpg" style="width:100%">
+        <!-- enlarge image when clicked -->
+        <div id="modal4a" class="modal">
+          <span id="close4a" data-modalid='modal4a' class="close">&times;</span>
+          <img class="modal-content" id="img4a_mod">
+        </div>
+      </td>
+      <td>
+        <img id="img4b" class="proj" data-modalid='modal4b' src="../../images/graph_art/4.emotion/4.b.jpg" style="width:100%">
+        <!-- enlarge image when clicked -->
+        <div id="modal4b" class="modal">
+          <span id="close4b" data-modalid='modal4b' class="close">&times;</span>
+          <img class="modal-content" id="img4b_mod">
+        </div>
       </td>
     </tr>
   </table>
@@ -112,6 +157,7 @@
 </div>
 
 <script src="../../js/top_nav.js"></script>
+<script src="../../js/zoom_images.js"></script>
 
 </body>
 </html>

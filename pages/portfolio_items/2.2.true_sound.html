@@ -40,7 +40,7 @@
     <h2> Visual Arts </h2>
   </div>
 
-  <svg width="700" height="16">
+  <svg class="top_rect_wrapper" width="100%" height="16">
     <rect class="top_rect" style="fill:rgb(99,116,220);"> </rect>
   </svg>
 
@@ -57,12 +57,42 @@
 <!-- Tabs for each city -->
 <div class="portfolio_content">
   <div class="sound">
-    <img border="1" src="../../images/graph_art/2.true_sound/true_sound0.png" style="width:70%;">
-    <img border="1" src="../../images/graph_art/2.true_sound/true_sound1.png" style="width:70%;">
-    <img border="1" src="../../images/graph_art/2.true_sound/true_sound2.png" style="width:70%;">
-    <img border="1" src="../../images/graph_art/2.true_sound/true_sound3.png" style="width:70%;">
-    <img border="1" src="../../images/graph_art/2.true_sound/true_sound4.png" style="width:70%;">
-    <img border="1" src="../../images/graph_art/2.true_sound/true_sound5.png" style="width:70%;">
+    <img border="1" id="img0" class="proj" data-modalid='modal0' src="../../images/graph_art/2.true_sound/true_sound0.png" style="width:70%;">
+    <!-- enlarge image when clicked -->
+    <div id="modal0" class="modal">
+      <span id="close0" data-modalid='modal0' class="close">&times;</span>
+      <img class="modal-content" id="img0_mod" style="height: 70%;">
+    </div>
+    <img border="1" id="img1" class="proj" data-modalid='modal1' src="../../images/graph_art/2.true_sound/true_sound1.png" style="width:70%;">
+    <!-- enlarge image when clicked -->
+    <div id="modal1" class="modal">
+      <span id="close1" data-modalid='modal1' class="close">&times;</span>
+      <img class="modal-content" id="img1_mod" style="height: 70%;">
+    </div>
+    <img border="1" id="img2" class="proj" data-modalid='modal2' src="../../images/graph_art/2.true_sound/true_sound2.png" style="width:70%;">
+    <!-- enlarge image when clicked -->
+    <div id="modal2" class="modal">
+      <span id="close2" data-modalid='modal2' class="close">&times;</span>
+      <img class="modal-content" id="img2_mod" style="height: 70%;">
+    </div>
+    <img border="1" id="img3" class="proj" data-modalid='modal3' src="../../images/graph_art/2.true_sound/true_sound3.png" style="width:70%;">
+    <!-- enlarge image when clicked -->
+    <div id="modal3" class="modal">
+      <span id="close3" data-modalid='modal3' class="close">&times;</span>
+      <img class="modal-content" id="img3_mod" style="height: 70%;">
+    </div>
+    <img border="1" id="img4" class="proj" data-modalid='modal4' src="../../images/graph_art/2.true_sound/true_sound4.png" style="width:70%;">
+    <!-- enlarge image when clicked -->
+    <div id="modal4" class="modal">
+      <span id="close4" data-modalid='modal4' class="close">&times;</span>
+      <img class="modal-content" id="img4_mod" style="height: 70%;">
+    </div>
+    <img border="1" id="img5" class="proj" data-modalid='modal5' src="../../images/graph_art/2.true_sound/true_sound5.png" style="width:70%;">
+    <!-- enlarge image when clicked -->
+    <div id="modal5" class="modal">
+      <span id="close5" data-modalid='modal5' class="close">&times;</span>
+      <img class="modal-content" id="img5_mod" style="height: 70%;">
+    </div>
   </div>
 </div>
 
@@ -85,6 +115,7 @@
 </div>
 
 <script src="../../js/top_nav.js"></script>
+<script src="../../js/zoom_images.js"></script>
 
 </body>
 </html>

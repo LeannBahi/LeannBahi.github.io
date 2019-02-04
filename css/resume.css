@@ -4,6 +4,13 @@ body {
 }
 
 /********** RESUME PAGE **********/
+.res_content{
+  text-align: center;
+  margin:auto;
+  margin-top: 40px;
+  width: 700px;
+}
+
 .res {
   width:700px; 
   height:900px;
@@ -11,8 +18,11 @@ body {
 }
 
 @media only screen and (max-width: 700px){
+  .res_content{
+    width: 90vw;
+  }
   .res {
-    width:100vw; 
-    height:80vh;
+    width:90vw; 
+    height:70vh;
   }
 }
