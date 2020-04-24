@@ -39,14 +39,16 @@ body {
   width: 700px;
 }
 
-svg.top_rect_wrapper {
-  width: 700px;
+.top_rect_wrapper {
   text-align: center;
+  margin: auto;
+  height: 22px;
 }
 
-rect.top_rect {
+hr.top_rect {
   width: 700px; 
   height: 16px;
+  border-width:0;
 }
 
 .project_details_row {
@@ -105,6 +107,12 @@ rect.top_rect {
   line-height: 95%;
 }
 
+.portfolio_content {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
 /** Enlarge images when clicked **/
 /* mouse to pointer when over image */
 img.proj {
@@ -130,10 +138,10 @@ iframe.vid {
 @media screen and (max-width: 700px) {
   .back_link { padding-left: 30px; }
   .header_img { width: 90vw; }
-  svg.top_rect_wrapper {
+  .top_rect_wrapper {
     width: 90vw;
   }
-  rect.top_rect { width: 90vw; }
+  hr.top_rect { width: 90vw; }
   .project_details_row{ 
     width: 90vw;
   }
