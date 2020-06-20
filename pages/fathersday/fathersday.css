@@ -1,0 +1,118 @@
+body {
+  font-family: "Avenir Next";
+  margin: 0;
+}
+
+/********** Navigation Bar **********/
+.topnav {
+  overflow: hidden;
+  margin-top: 10px; 
+  margin-left: 16px;
+  margin-right: 16px; 
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #CBCBCB;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.topnav a.left {
+  float: left;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav a:hover{
+  color: black;
+}
+
+
+/* Adapt to mobile */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive {float: none;}
+  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+
+
+/*********** CONTENT ***************/
+
+
+.main_content {
+  size: 50px;
+  text-align:center;
+}
+
+.home_media {
+  padding-top: 80px;
+}
+
+
+
+/************ MEMORIES **************/
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 60px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
